@@ -1,8 +1,9 @@
 class ProgrammingLanguage:
 
-    def __init__(self, name, typing, reflection, year):
+    def __init__(self, name='', typing='', reflection='', year=0):
         """Initialise a Programming Language.
 
+        name: string
         typing: string
         reflection: string
         year: integer
