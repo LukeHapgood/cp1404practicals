@@ -1,13 +1,8 @@
-"""
-CP1404/CP5632 Practical
-Demos of various os module examples
-"""
 import shutil
 import os
 
 
 def main():
-    """Demo os module functions."""
     print("Starting directory is: {}".format(os.getcwd()))
 
     os.chdir('Lyrics')
